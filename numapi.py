@@ -91,7 +91,7 @@ def home():
 
 re = None
 
-@app.get("/calculate_name")
+@app.post("/calculate_name")
 async def calculate_name(request: Request):
 
     try:
